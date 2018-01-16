@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+	<div class="par">
+		<h3>Введите данные</h1>
+		<form action="" id="myForm">
+			<p>Имя: <input type="text" name="first_name" required></p>
+			<p>Фамилия: <input type="text" name="second_name" required></p>
+			<p>Возраст: <input type="number" name="age" required></p>
+			<button type="submit" id="upload" >Загрузить</button>
+			
+		</form>
+		<form action="unloading.php">
+		<button id="unloading" type="submit">Выгрузить</button>
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="static/script.js"></script>
+</html>
